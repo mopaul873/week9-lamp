@@ -1,4 +1,4 @@
-# Generates a secure private k ey and encodes it as PEM
+# Generates a secure private key and encodes it as PEM
 resource "tls_private_key" "lightsail_key" {
   algorithm = "RSA"
   rsa_bits  = 2048
